@@ -16,6 +16,7 @@ public class HourlyEmployee extends Employee{
     private double hoursWorked;
     private double hourlyWage;
     private double pay;
+   
     //Created HowManyHoursWored that asks the user how many hours they have worked and have the imput determine hoursWorked
     public void HowManyHoursWorked (){
     hoursWorked = Double.parseDouble(JOptionPane.showInputDialog(null, "Enter how many hours you worked."));

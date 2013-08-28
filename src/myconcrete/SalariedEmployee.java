@@ -17,6 +17,9 @@ public class SalariedEmployee extends Employee{
     private double yearsWorked;
     private double salary;
     private double salaryPay;
+    public SalariedEmployee(){
+        super();
+    }
     //Created HowManyYearsWorked that ask the user how many years they have worked using the imput to determine yearsWorked
     public void HowManyYearsWorked (){
         yearsWorked = (Double.parseDouble(JOptionPane.showInputDialog(null, "Enter how many years have you worked?")));
