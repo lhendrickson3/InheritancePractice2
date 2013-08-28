@@ -20,8 +20,11 @@ public class Runner {
   myEmployee.setAmountPaid(myEmployee.getPay());
       System.out.println("Amount paid " + myEmployee.getAmountPaid());
   //Calling the methods from SalariedEmployee
+      System.out.println("yolo1");
   SalariedEmployee mySalariedEmployee = new SalariedEmployee();
+      System.out.println("yolo2");
   mySalariedEmployee.HowManyYearsWorked();
+      System.out.println("yolo3");
   mySalariedEmployee.YearlySalary();
   mySalariedEmployee.setSalaryPay();
   mySalariedEmployee.setAmountPaid(mySalariedEmployee.getSalaryPay());
